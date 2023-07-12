@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: black;;
+}
+
+#header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:brown;
+    padding: 5px 0;
+    position:static;
+    width: 98%;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+h1 i {
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: auto;
+    background-color: brown;
+    margin: 0 10px;
+    padding: 5px 5px;
+    
+}
+
+#esquerda {
+    width: 20%;
+    background-color: black;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+#esquerda img {
+    max-width: 98%;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#direita img {
+    max-width: 98%;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#centro {
+    width: 60%;
+    height: 100%;
+    background-color: brown;
+}
+
+#direita {
+    width: 20%;
+    max-height: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+video {
+    max-width: 98%;
+}
+
+h2 i {
+    font-size: 22px;
+}
+
+div p#titule {
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration:underline darkred;
+}
+
+#titulo {
+    padding: 20px 0;
+    margin: 0 20px;
+    border-radius: 5px;
+    width: 94%;
+    color: white;
+}
+
+#conteudo {
+    text-align: justify;
+    padding: 0 10px;
+    color: black;
+}
+
+#rodaPe {
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    padding-top: 15px;
+}
+
+#divRodaPe {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#predileta {
+    max-width: 100% ;    
+}
+
+#cine {
+    height: 160px;
+    object-fit:cover;
+}
+
+#conteudo div p {
+    text-indent: 10px;
+}
+
+
+#conteudo div p::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(26, 25, 25);
+}
+
+legend {
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
